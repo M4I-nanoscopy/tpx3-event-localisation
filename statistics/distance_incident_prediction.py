@@ -53,7 +53,7 @@ for pred in f['predictions']:
 fig = plt.figure(figsize=(10, 4))
 
 ax = fig.add_subplot(111)
-ax.set_ylabel('RMS (pixel)')
+ax.set_ylabel('Distance (pixel)')
 ax.yaxis.grid(True)
 ax.yaxis.set_major_locator(ticker.MultipleLocator(1))
 
